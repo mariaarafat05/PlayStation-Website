@@ -1,0 +1,1806 @@
+
+h1 {
+    font-family: "Aref Ruqaa", serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding-top: 100px;
+    background-color: #ffffff;
+}
+
+/* HOME */
+
+
+header {
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    width: 95%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.192);
+}
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.home .logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.home .logo img {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(202, 159, 159, 0.185);
+    border-radius: 50%;
+}
+
+.home .logo h1 {
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: #032b97;
+}
+
+/* NAV */
+
+.nav {
+    font-family: "Cascadia Code", sans-serif;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color:#383838;
+    font-size:15px;
+    font-weight:600;
+    padding-bottom: 8px;
+}
+
+.nav ul li a:hover {
+    color: #032b97;
+    border-bottom: 2px solid #032b97;
+}
+
+
+/* الواجهة */
+
+
+.hero {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 95%;
+    height: 83vh;
+}
+
+.left-side {
+    width: 100%;
+    height: 100%;
+    background: url(images/ps.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    width:95%;
+    margin:30px auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #b8b7b7a8;
+    margin-top: 40px;
+}
+
+.boxes .box {
+    transition: .3s;
+    padding: 10px;
+}
+
+.boxes .box:hover {
+    transform: translateY(-5px);
+}
+
+.boxes .box img {
+    width: 270px;
+    height:140px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: #1608d381;
+    box-shadow: 10px 10px 20px rgb(1, 16, 99);
+}
+
+.content  h2{
+    font-family: "Beiruti", sans-serif;
+    color: #ffffffcb;
+    font-size: 100px;
+    font-weight: 900;
+    margin-left: 28px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.content span {
+    color: #032a9794;
+}
+
+.content button {
+    background-color: #032a9762;
+    padding: 15px 80px;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 10px 10px 30px rgba(5, 3, 150, 0.411);
+    transition: .3s;
+    margin-left: 50px;
+}
+
+.content button a {
+    color: #ffffff9d;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Beiruti", sans-serif ;
+}
+
+.content button:hover {
+    transform: translateY(-5px);
+    background-color: #101d4b;
+}
+
+
+.playstion-types {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 95%;
+    height: 70vh;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin:30px auto;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.cards .card img {
+    width: 350px;
+    height:350px;
+    border-radius: 10px;
+    object-fit: contain;
+    background-color: #ffffff;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.192);
+    transition: .3s;
+}
+
+.cards .card img:hover {
+    transform: scale(1.1);
+}
+
+.playstion-types h1 {
+    font-size: 50px;
+    font-family: "Beiruti", sans-serif ;
+    font-weight: 900;
+    color: #101d4bcc;
+    text-align: center;
+}
+
+.card button {
+    text-align: center;
+    background-color: #050914d8;
+    padding: 10px 70px;
+    border-style: none;
+    box-shadow: 10px 10px 30px rgba(5, 3, 150, 0.411);
+    font-family: "Beiruti", sans-serif ;
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.card button a {
+    color: #ffffffd5;
+    text-decoration: none;
+}
+
+.card button:hover {
+    background-color: #101d4b;
+    transform: translateY(-5px);
+}
+
+.games {
+    position: relative;
+    top: 200px;
+    left: 30px;
+    width: 95%;
+    height: 64vh;
+    background-color: #cedbff;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Beiruti", sans-serif 
+}
+
+.games h3 {
+    font-size: 80px;
+    color: #101d4b;
+}
+
+.games h1 {
+    font-size: 130px;
+    color: #2346a7;
+}
+
+.games p {
+    font-size: 30px;
+    color: #101d4b;
+    font-weight: 700;
+}
+
+.games button {
+    background-color: #082061c2;
+    padding: 15px 80px;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 10px 10px 30px rgba(5, 3, 150, 0.411);
+    transition: .3s;
+    margin-top: 10px;
+}
+
+.games button a {
+    color: #ffffff9d;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Beiruti", sans-serif ;
+}
+
+.games button:hover {
+    transform: translateY(-5px);
+    background-color: #101d4b;
+}
+
+
+
+
+.pricing {
+    position: relative;
+    top: 200px;
+    left: 30px;
+    width: 95%;
+    height: 140vh;
+    padding: 80px 7%;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* عنوان القسم */
+
+.pricing-header span {
+    display: inline-block;
+    color: #2563eb;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.pricing-header h2 {
+    color: #032b97;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 12px 0;
+}
+
+.pricing-header p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/* حاوية البطاقات */
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* بطاقة السعر */
+
+.pricing-card {
+    background: #fff;
+    width: 260px;
+    padding: 35px 25px;
+    border-radius: 18px;
+    border: 1px solid #e5eaf5;
+    box-shadow: 0 8px 30px #032b9710;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px #032b9720;
+}
+
+/* الأيقونة */
+
+.price-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+/* اسم الباقة */
+
+.pricing-card h3 {
+    color: #172554;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* الوصف */
+
+.pricing-card .duration {
+    color: #888;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.pricing-card .price {
+    color: #032b97;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+.pricing-card .price span {
+    color: #777;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* مميزات الباقة */
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+    text-align: right;
+}
+
+.pricing-card ul li {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 12px 0;
+}
+
+.pricing-card button {
+    width: 100%;
+    padding: 13px 10px;
+    border: 2px solid #032b97;
+    background: #032b97;
+    color: #fff;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.pricing-card button:hover {
+    background: #fff;
+    color: #032b97;
+}
+
+/* الباقة المميزة */
+
+.pricing-card.featured {
+    border: 2px solid #2563eb;
+    transform: translateY(-10px);
+}
+
+.pricing-card.featured:hover {
+    transform: translateY(-18px);
+}
+
+.popular {
+    position: absolute;
+    top: -15px;
+    right: 50%;
+    transform: translateX(50%);
+    background: #2563eb;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+
+
+.discounts {
+    position: relative;
+    top: 200px;
+    left: 30px;
+    width: 95%;
+    height: 140vh;
+    padding: 80px 7%;
+    background: #fff;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* عنوان السكشن */
+
+.discounts-header span {
+    display: inline-block;
+    color: #2563eb;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.discounts-header h2 {
+    color: #032b97;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 12px 0;
+}
+
+.discounts-header p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/* حاوية الكروت */
+
+.discounts-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.discount-card {
+    width: 260px;
+    padding: 35px 25px;
+    background: #f5f7fc;
+    border: 1px solid #e5eaf5;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px #032b9710;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+    box-sizing: content-box;
+}
+
+.discount-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px #032b9720;
+}
+
+/* شارة الخصم */
+
+.discount-badge {
+    display: inline-block;
+    background: #e8efff;
+    color: #032b97;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/* كرت العرض المميز */
+
+.special-offer {
+    border: 2px solid #2563eb;
+    background: #f0f5ff;
+}
+
+.special-offer .discount-badge {
+    background: #032b97;
+    color: #fff;
+}
+
+/* الأيقونة */
+
+.discount-icon {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+/* عنوان العرض */
+
+.discount-card h3 {
+    color: #172554;
+    font-size: 21px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+/* وصف العرض */
+
+.discount-description {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.9;
+    min-height: 55px;
+}
+
+/* الأسعار */
+
+.discount-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 25px 0 10px;
+}
+
+.old-price {
+    color: #999;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.new-price {
+    color: #032b97;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+/* مقدار التوفير */
+
+.discount-note {
+    color: #16834a;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0 25px;
+}
+
+/* زر العرض */
+
+.discount-card button {
+    width: 100%;
+    padding: 13px 10px;
+    background: #032b97;
+    color: #fff;
+    border: 2px solid #032b97;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.discount-card button:hover {
+    background: #fff;
+    color: #032b97;
+}
+
+
+
+
+.about {
+    position: relative;
+    top: 200px;
+    left: 30px;
+    width: 95%;
+    height: 110vh;
+    padding: 100px 7%;
+    background: #f5f7fc;
+    font-family: 'Cairo', sans-serif;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* الصورة */
+
+.about-image {
+    position: relative;
+    flex: 1;
+    min-width: 0;
+}
+
+.about-image img {
+    display: block;
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px #032b9718;
+}
+
+.about-experience {
+    position: absolute;
+    bottom: 25px;
+    right: -20px;
+    background: #fff;
+    padding: 18px 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px #00000012;
+}
+
+.about-experience span {
+    font-size: 28px;
+}
+
+.about-experience h3 {
+    color: #032b97;
+    font-size: 17px;
+    margin: 8px 0 3px;
+}
+
+.about-experience p {
+    color: #777;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* النصوص */
+
+.about-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.about-label {
+    display: inline-block;
+    color: #2563eb;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.about-content h2 {
+    color: #172554;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+.about-content h2 span {
+    color: #032b97;
+}
+
+.about-description {
+    color: #666;
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+
+/* المميزات */
+
+.about-features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.about-feature {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-feature > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    height: 50px;
+    background: #e5edff;
+    border-radius: 12px;
+    font-size: 24px;
+}
+
+.about-feature h3 {
+    color: #172554;
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+
+.about-feature p {
+    color: #777;
+    font-size: 13px;
+    margin: 0;
+}
+
+.about-btn {
+    display: inline-block;
+    padding: 13px 28px;
+    background: #032b97;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #032b97;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.about-btn:hover {
+    background: transparent;
+    color: #032b97;
+}
+
+
+
+
+.contact {
+    position: relative;
+    top: 220px;
+    left: 30px;
+    width: 95%;
+    height: 165vh;
+    padding: 80px 7%;
+    background: #f5f7fc;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* عنوان القسم */
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-header span {
+    color: #2563eb;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.contact-header h2 {
+    color: #032b97;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 12px 0;
+}
+
+.contact-header p {
+    color: #777;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.contact-container {
+    max-width: 1150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 35px;
+    align-items: stretch;
+}
+
+/* معلومات التواصل */
+
+.contact-info {
+    background: #032b97;
+    color: #fff;
+    padding: 40px 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px #032b971a;
+}
+
+.contact-info > h3 {
+    font-size: 27px;
+    margin: 0 0 15px;
+}
+
+.contact-text {
+    color: #dbe5ff;
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 35px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.contact-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff20;
+    border-radius: 12px;
+    font-size: 22px;
+}
+
+.contact-item h4 {
+    font-size: 15px;
+    margin: 0 0 5px;
+}
+
+.contact-item p {
+    color: #dbe5ff;
+    font-size: 13px;
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
+.contact-social {
+    margin-top: 35px;
+}
+
+.contact-social h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-links a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff20;
+    color: #fff;
+    border: 1px solid #ffffff30;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
+    transition: 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #fff;
+    color: #032b97;
+    transform: translateY(-4px);
+}
+
+/* نموذج الرسالة */
+
+.contact-form {
+    background: #fff;
+    padding: 40px 35px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px #032b9710;
+    border: 1px solid #e5eaf5;
+}
+
+.contact-form h3 {
+    color: #172554;
+    font-size: 25px;
+    margin: 0 0 25px;
+}
+
+/* الحقول */
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.form-group label {
+    display: block;
+    color: #172554;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.form-group input,
+.form-group textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 15px;
+    background: #f8faff;
+    color: #172554;
+    border: 1px solid #dce4f2;
+    border-radius: 8px;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.form-group input {
+    height: 48px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 130px;
+    line-height: 1.8;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #a0a8b8;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #2563eb;
+    background: #fff;
+    box-shadow: 0 0 0 3px #2563eb15;
+}
+
+/* زر الإرسال */
+
+.contact-btn {
+    width: 100%;
+    padding: 14px;
+    background: #032b97;
+    color: #fff;
+    border: 2px solid #032b97;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: #fff;
+    color: #032b97;
+}
+
+.site-footer {
+    margin-top: 220px;
+    padding: 22px 15px;
+    background: #071735;
+    color: #dbe5ff;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+/* ================================= */
+/*     TABLET - التابلت              */
+/* ================================= */
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    /* إخفاء الهيدر بالكامل */
+    header {
+        display: none !important;
+    }
+
+    body {
+        padding-top: 20px;
+        overflow-x: hidden;
+    }
+
+    /* الواجهة الرئيسية */
+    .hero {
+        position: relative;
+        top: 0;
+        left: 2%;
+        width: 96%;
+        height: 55vh;
+        min-height: 320px;
+        max-height: 500px;
+        margin-bottom: 25px;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .left-side {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content h2 {
+        font-size: clamp(45px, 7vw, 70px);
+        margin-left: 20px;
+        line-height: 1.4;
+    }
+
+    .content button {
+        margin-left: 20px;
+        padding: 12px 35px;
+    }
+
+    /* بوكسات الواجهة */
+    .boxes {
+        position: relative;
+        top: 0;
+        width: 96%;
+        margin: 20px auto 35px;
+        padding: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        gap: 12px;
+        flex-wrap: nowrap;
+    }
+
+    .boxes .box {
+        flex: 1 1 0;
+        min-width: 0;
+        padding: 4px;
+    }
+
+    .boxes .box img {
+        display: block;
+        width: 100%;
+        height: 125px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    /* قسم أنواع البلايستيشن */
+    .playstion-types {
+        left: 0;
+        width: 96%;
+        height: auto;
+        margin: 30px auto;
+        top: 0;
+    }
+
+    .playstion-types h1 {
+        font-size: 40px;
+    }
+
+    .cards {
+        margin: 25px 0;
+        padding: 0;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .cards .card {
+        flex: 1 1 40%;
+        min-width: 0;
+        text-align: center;
+    }
+
+    .cards .card img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .card button {
+        margin: 12px auto;
+        padding: 10px 25px;
+    }
+}
+
+
+/* ================================= */
+/*     MOBILE - التلفون              */
+/* ================================= */
+
+@media screen and (max-width: 600px) {
+
+    /* إخفاء الهيدر بالكامل */
+    header {
+        display: none !important;
+    }
+
+    body {
+        padding-top: 10px;
+        overflow-x: hidden;
+    }
+
+    /* الواجهة الرئيسية */
+    .hero {
+        position: relative;
+        top: 0;
+        left: 2%;
+        width: 96%;
+        height: 38vh;
+        min-height: 230px;
+        max-height: 350px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .left-side {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content h2 {
+        font-size: clamp(28px, 8vw, 42px);
+        line-height: 1.4;
+        margin-left: 10px;
+    }
+
+    .content button {
+        margin-left: 10px;
+        margin-top: 8px;
+        padding: 9px 20px;
+        border-radius: 6px;
+    }
+
+    .content button a {
+        font-size: 14px;
+    }
+
+    /* بوكسات الواجهة: صغار وجنب بعض */
+    .boxes {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 96%;
+        margin: 15px auto 30px;
+        padding: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 8px;
+        flex-wrap: nowrap;
+        border-radius: 8px;
+    }
+
+    .boxes .box {
+        flex: 1 1 0;
+        min-width: 0;
+        padding: 2px;
+    }
+
+    .boxes .box img {
+        display: block;
+        width: 100%;
+        height: 85px;
+        object-fit: cover;
+        border-radius: 6px;
+        box-shadow: 0 3px 8px rgba(1, 16, 99, 0.2);
+    }
+
+    .boxes .box:hover {
+        transform: none;
+    }
+
+    /* قسم أنواع البلايستيشن */
+    .playstion-types {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 96%;
+        height: auto;
+        margin: 25px auto;
+    }
+
+    .playstion-types h1 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .cards .card {
+        flex: 1 1 42%;
+        min-width: 0;
+        max-width: 48%;
+        text-align: center;
+    }
+
+    .cards .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .card button {
+        display: block;
+        width: 100%;
+        margin: 10px auto 0;
+        padding: 8px 4px;
+        font-size: 14px;
+    }
+
+    .cards .card img:hover {
+        transform: none;
+    }
+}
+
+
+/* ================================= */
+/*     SMALL MOBILE - تلفون صغير     */
+/* ================================= */
+
+@media screen and (max-width: 380px) {
+
+    .hero {
+        min-height: 210px;
+    }
+
+    .content h2 {
+        font-size: 27px;
+    }
+
+    .boxes {
+        gap: 5px;
+        padding: 6px;
+    }
+
+    .boxes .box img {
+        height: 70px;
+    }
+
+    .playstion-types h1 {
+        font-size: 26px;
+    }
+
+    .cards {
+        gap: 10px;
+    }
+
+    .cards .card img {
+        height: 125px;
+    }
+
+    .card button {
+        font-size: 12px;
+    }
+}
+
+
+
+/* ================================= */
+/*     MOBILE - نسخة التلفون المحسنة  */
+/* ================================= */
+
+@media screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html, body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        padding-top: 10px;
+    }
+
+    header {
+        display: none !important;
+    }
+
+    .hero {
+        top: 0;
+        left: 0;
+        width: 96%;
+        height: 36vh;
+        min-height: 220px;
+        max-height: 330px;
+        margin: 0 auto 20px;
+        overflow: hidden;
+    }
+
+    .left-side {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content h2 {
+        font-size: clamp(27px, 8vw, 42px);
+        line-height: 1.35;
+        margin: 0 10px;
+    }
+
+    .content button {
+        margin: 10px;
+        padding: 9px 18px;
+    }
+
+    .content button a {
+        font-size: 14px;
+    }
+
+    .boxes {
+        position: relative;
+        top: 0;
+        left: auto;
+        width: 96%;
+        margin: 15px auto 28px;
+        padding: 7px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 6px;
+        flex-wrap: nowrap;
+    }
+
+    .boxes .box {
+        flex: 1 1 0;
+        min-width: 0;
+        padding: 2px;
+    }
+
+    .boxes .box img {
+        display: block;
+        width: 100%;
+        height: 75px;
+        object-fit: cover;
+        border-radius: 6px;
+        box-shadow: 0 3px 8px rgba(1, 16, 99, .2);
+    }
+
+    .boxes .box:hover {
+        transform: none;
+    }
+
+    .playstion-types {
+        top: 0;
+        left: 0;
+        width: 96%;
+        height: auto;
+        margin: 25px auto 35px;
+    }
+
+    .playstion-types h1 {
+        font-size: 29px;
+        line-height: 1.5;
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 14px;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .cards .card {
+        flex: 0 0 calc(50% - 7px);
+        width: calc(50% - 7px);
+        max-width: calc(50% - 7px);
+        min-width: 0;
+        text-align: center;
+    }
+
+    .cards .card img {
+        display: block;
+        width: 100%;
+        height: 135px;
+        object-fit: contain;
+    }
+
+    .card button {
+        display: block;
+        width: 100%;
+        margin: 10px auto 0;
+        padding: 8px 3px;
+        font-size: 13px;
+    }
+
+    .cards .card img:hover {
+        transform: none;
+    }
+
+    .games {
+        top: 0;
+        left: 0;
+        width: 96%;
+        height: auto;
+        min-height: 280px;
+        margin: 35px auto;
+        padding: 35px 12px;
+    }
+
+    .games h3 {
+        font-size: clamp(30px, 8vw, 48px);
+        line-height: 1.4;
+    }
+
+    .games h1 {
+        font-size: clamp(48px, 13vw, 75px);
+        line-height: 1.3;
+    }
+
+    .games p {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .games button {
+        padding: 11px 25px;
+        margin-top: 15px;
+    }
+
+    .games button a {
+        font-size: 15px;
+    }
+
+    .pricing,
+    .discounts,
+    .about,
+    .contact {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        margin: 35px 0 0;
+        padding: 45px 16px;
+    }
+
+    .pricing-header span {
+        font-size: 16px;
+    }
+
+    .pricing-header h2 {
+        font-size: 34px;
+        line-height: 1.5;
+    }
+
+    .pricing-header p,
+    .discounts-header p {
+        font-size: 14px;
+        line-height: 1.9;
+        margin-bottom: 28px;
+    }
+
+    .pricing-container,
+    .discounts-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .pricing-card,
+    .discount-card {
+        width: 100%;
+        max-width: 360px;
+        min-width: 0;
+        padding: 28px 20px;
+        box-sizing: border-box;
+    }
+
+    .pricing-card.featured {
+        transform: none;
+        margin-top: 10px;
+    }
+
+    .pricing-card.featured:hover,
+    .pricing-card:hover,
+    .discount-card:hover {
+        transform: none;
+    }
+
+    .discounts-header h2 {
+        font-size: 32px;
+        line-height: 1.5;
+    }
+
+    .discounts-header span {
+        font-size: 14px;
+    }
+
+    .discount-prices {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .old-price {
+        font-size: 17px;
+    }
+
+    .new-price {
+        font-size: 30px;
+    }
+
+    .about {
+        padding: 40px 18px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .about-image,
+    .about-content {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: 260px;
+        border-radius: 14px;
+    }
+
+    .about-experience {
+        right: 10px;
+        bottom: 10px;
+        padding: 12px 15px;
+    }
+
+    .about-experience span {
+        font-size: 22px;
+    }
+
+    .about-experience h3 {
+        font-size: 15px;
+    }
+
+    .about-experience p {
+        font-size: 12px;
+    }
+
+    .about-label {
+        font-size: 14px;
+    }
+
+    .about-content h2 {
+        font-size: 27px;
+        line-height: 1.6;
+    }
+
+    .about-description {
+        font-size: 14px;
+        line-height: 1.9;
+    }
+
+    .about-features {
+        gap: 16px;
+        margin: 22px 0;
+    }
+
+    .about-feature {
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .about-feature > span {
+        min-width: 42px;
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
+    }
+
+    .about-feature h3 {
+        font-size: 15px;
+    }
+
+    .about-feature p {
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    .about-btn {
+        padding: 11px 20px;
+        font-size: 14px;
+    }
+
+    .contact {
+        padding: 40px 16px;
+    }
+
+    .contact-header {
+        margin-bottom: 28px;
+    }
+
+    .contact-header h2 {
+        font-size: 32px;
+        line-height: 1.5;
+    }
+
+    .contact-header p {
+        font-size: 14px;
+        line-height: 1.9;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        min-width: 0;
+        padding: 25px 18px;
+        border-radius: 14px;
+    }
+
+    .contact-info > h3,
+    .contact-form h3 {
+        font-size: 22px;
+    }
+
+    .contact-text {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+
+    .contact-item {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .contact-icon {
+        width: 42px;
+        height: 42px;
+        min-width: 42px;
+        font-size: 19px;
+    }
+
+    .contact-item h4 {
+        font-size: 14px;
+    }
+
+    .contact-item p {
+        font-size: 12px;
+        overflow-wrap: anywhere;
+    }
+
+    .contact-social {
+        margin-top: 25px;
+    }
+
+    .contact-form h3 {
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 16px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+    }
+
+    .form-group textarea {
+        min-height: 110px;
+    }
+
+    .site-footer {
+        margin-top: 35px;
+        padding: 20px 14px;
+    }
+
+    .site-footer p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .boxes .box img {
+        height: 62px;
+    }
+
+    .playstion-types h1 {
+        font-size: 26px;
+    }
+
+    .cards {
+        gap: 10px;
+    }
+
+    .cards .card {
+        flex-basis: calc(50% - 5px);
+        width: calc(50% - 5px);
+        max-width: calc(50% - 5px);
+    }
+
+    .cards .card img {
+        height: 115px;
+    }
+
+    .card button {
+        font-size: 12px;
+    }
+
+    .pricing-header h2,
+    .discounts-header h2,
+    .contact-header h2 {
+        font-size: 28px;
+    }
+}
